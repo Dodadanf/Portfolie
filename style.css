@@ -1,0 +1,13 @@
+
+.section_wrapper {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.section_wrapper_child {
+    width: 90%;
+    height: 10vw;
+    background-color: red;
+}
