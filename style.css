@@ -4,7 +4,8 @@ body {
 }
 
 div {
-    border: 2px solid black;
+    border: 0px solid white;
+
 }
 
 
@@ -15,7 +16,17 @@ div {
 
 
 .section_wrapper_child {
-    width: 90%;
-    height: 10vw;
-    background-color: red;
+    width: 80%;
+    background-color: lightcoral;
+}
+
+.content_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+.content_wrapper_child {
+    width: 33.333%;
+    height: 200px;
 }
