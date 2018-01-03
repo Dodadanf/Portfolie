@@ -1,10 +1,20 @@
 body {
+    background-color: #2A2C38;
     margin: 0;
     padding: 0;
 }
 
 div {
     border: 0px solid white;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    color: white;
 
 }
 
@@ -60,12 +70,44 @@ ul.topnav li.right {
 }
 
 .content_wrapper {
+    background-color: #2A2C38;
     display: flex;
     flex-wrap: wrap;
     justify-content: center
 }
 
-.content_wrapper_child {
+.content_wrapper_child {}
+
+.box1 {
+    background-image: url(IMG/html5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.box2 {
+    background-image: url(IMG/video.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box3 {
+    background-image: url(IMG/animation.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box4 {
+    background-image: url(IMG/UX.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box:hover {
+    opacity: 0.5;
+}
+
+.box {
     width: 25%;
-    height: 200px;
+    height: 400px;
 }
