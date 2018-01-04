@@ -70,7 +70,7 @@ ul.topnav li.right {
     background-color: #2A2C38;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center
+    justify-content: center;
 }
 
 .content_wrapper_child {}
@@ -109,17 +109,14 @@ ul.topnav li.right {
     height: 400px;
 }
 
-.splash_img {
-
-
-}
+.splash_img {}
 
 .fronpagebackground {
     background-image: url(IMG/forside_uden_baggrund.png);
     width: 80vw;
-    height: 50vw;
+    height: 45vw;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     overflow: hidden;
     position: relative;
 }
