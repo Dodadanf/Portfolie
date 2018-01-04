@@ -114,10 +114,10 @@ ul.topnav li.right {
 
 }
 
-.fronpage {
-    background-image: url(IMG/forside.png);
+.fronpagebackground {
+    background-image: url(IMG/forside_uden_baggrund.png);
     width: 80vw;
-    height: 100%;
+    height: 50vw;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
