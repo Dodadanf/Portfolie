@@ -111,11 +111,15 @@ ul.topnav li.right {
 .splash_img {}
 
 .fronpagebackground {
-    background-image: url(IMG/forside4.png);
+    background-image: url(IMG/forside5.png);
     width: 80vw;
     height: 45vw;
     background-repeat: no-repeat;
     background-size: contain;
     overflow: hidden;
     position: relative;
+}
+
+.filler1 {
+    height: 2vw;
 }
