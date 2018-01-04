@@ -4,10 +4,7 @@ body {
     padding: 0;
 }
 
-div {
-    border: 0px solid white;
 
-}
 
 h1,
 h2,
@@ -66,7 +63,7 @@ ul.topnav li.right {
 
 .section_wrapper_child {
     width: 80%;
-    background-color: lightcoral;
+
 }
 
 .content_wrapper {
@@ -110,4 +107,19 @@ ul.topnav li.right {
 .box {
     width: 25%;
     height: 400px;
+}
+
+.splash_img {
+
+
+}
+
+.fronpage {
+    background-image: url(IMG/forside.png);
+    width: 80vw;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
 }
