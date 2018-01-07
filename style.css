@@ -20,7 +20,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #14151E;
 }
 
 ul.topnav li {
@@ -37,11 +37,11 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover:not(.active) {
-    background-color: #111;
+    background-color: #2A2C38;
 }
 
 ul.topnav li a.active {
-    background-color: #4CAF50;
+    background-color: #3E4159;
 }
 
 ul.topnav li.right {
@@ -155,7 +155,7 @@ ul.topnav li.right {
 }
 
 .button {
-    background-color:;
+    background-color: #14151E;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -163,6 +163,11 @@ ul.topnav li.right {
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover {
+    background-color: #3E4159;
 }
 
 .button_pos {
