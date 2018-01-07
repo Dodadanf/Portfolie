@@ -12,7 +12,7 @@ h3,
 h4,
 p {
     color: white;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 ul.topnav {
@@ -33,6 +33,7 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul.topnav li a:hover:not(.active) {
@@ -69,10 +70,12 @@ ul.topnav li.right {
 .content_wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.content_wrapper_child {}
+.content_wrapper_child {
+    flex-grow: 1;
+}
 
 .box1 {
     background-image: url(IMG/html5.png);
@@ -122,4 +125,29 @@ ul.topnav li.right {
 
 .filler1 {
     height: 2vw;
+}
+
+.tekst_wrapper {
+    min-width: 300px;
+    max-width: 600px;
+}
+
+
+
+
+
+.billed_pos {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.opgave_exemple {
+    max-height: 500px
+}
+
+.billed_wrapper {
+    min-width: 300px;
+    max-width: 600px;
 }
