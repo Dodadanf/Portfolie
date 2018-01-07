@@ -78,42 +78,6 @@ ul.topnav li.right {
     flex-grow: 1;
 }
 
-.box1 {
-    background-image: url(IMG/html5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-}
-
-.box2 {
-    background-image: url(IMG/video.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.box3 {
-    background-image: url(IMG/animation.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.box4 {
-    background-image: url(IMG/UX.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.box:hover {
-    opacity: 0.5;
-}
-
-.box {
-    width: 25%;
-    height: 400px;
-}
-
-.splash_img {}
-
 .fronpagebackground {
     background-image: url(IMG/forside5.png);
     width: 80vw;
@@ -132,9 +96,6 @@ ul.topnav li.right {
     min-width: 300px;
     max-width: 600px;
 }
-
-
-
 
 
 .billed_pos {
@@ -173,4 +134,78 @@ ul.topnav li.right {
 .button_pos {
     display: flex;
     justify-content: center;
+    margin: 50px 0 50px;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+    margin: 40px 0 40px;
+}
+
+p {
+    line-height: 150%;
+    margin: 10px 0 10px;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin: 20px 0 10px;
+}
+
+.boks {
+    width: 19.5vw;
+    height: 19.5vw;
+    background-color: aliceblue;
+    min-width: 150px;
+    min-height: 150px;
+}
+
+.boks1:hover {
+    background-image: url(IMG/hover_html.svg);
+
+}
+
+.boks2:hover {
+    background-image: url(IMG/hover_video.svg);
+
+}
+
+.boks3:hover {
+    background-image: url(IMG/hover_animation.svg);
+
+}
+
+.boks4:hover {
+    background-image: url(IMG/hover_ux.svg);
+
+}
+
+.portfolio_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boks1 {
+    background-image: url(IMG/html_menu.svg);
+
+}
+
+.boks2 {
+    background-image: url(IMG/video_menu.svg);
+
+}
+
+.boks3 {
+    background-image: url(IMG/animation_menu.svg);
+
+}
+
+.boks4 {
+    background-image: url(IMG/ux_menu.svg);
+
 }
