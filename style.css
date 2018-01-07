@@ -70,7 +70,8 @@ ul.topnav li.right {
 .content_wrapper {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .content_wrapper_child {
@@ -145,9 +146,26 @@ ul.topnav li.right {
 
 .opgave_exemple {
     max-height: 500px;
+    max-width: 80vw;
 }
 
 .billed_wrapper {
     min-width: 300px;
     max-width: 600px;
+}
+
+.button {
+    background-color:;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button_pos {
+    display: flex;
+    justify-content: center;
 }
