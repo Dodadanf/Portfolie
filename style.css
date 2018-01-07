@@ -157,8 +157,8 @@ h4 {
 }
 
 .boks {
-    width: 19.5vw;
-    height: 19.5vw;
+    width: 19.8vw;
+    height: 19.8vw;
     background-color: aliceblue;
     min-width: 150px;
     min-height: 150px;
@@ -208,4 +208,31 @@ h4 {
 .boks4 {
     background-image: url(IMG/ux_menu.svg);
 
+}
+
+
+
+.content_intro {
+    width: 60vw;
+
+}
+
+.content_no_wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+.intro_tekst {
+    max-width: 500px;
+    text-align: center;
+}
+
+.filler2 {
+    height: 3vw;
 }
