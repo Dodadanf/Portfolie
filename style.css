@@ -84,7 +84,6 @@ ul.topnav li.right {
     height: 45vw;
     background-repeat: no-repeat;
     background-size: contain;
-    overflow: hidden;
     position: relative;
 }
 
@@ -236,3 +235,5 @@ h4 {
 .filler2 {
     height: 3vw;
 }
+
+
