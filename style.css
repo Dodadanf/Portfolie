@@ -240,3 +240,11 @@ h4 {
 
 
 
+
+ul.info li {
+    list-style-type: none;
+}
+
+.info_list {
+    margin: 25px 0 25px;
+}
